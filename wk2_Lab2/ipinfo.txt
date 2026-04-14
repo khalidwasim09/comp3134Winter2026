@@ -1,0 +1,5 @@
+github.com → 140.82.121.4
+newyorktimes.com -> 151.101.193.164
+Torontostar.com -> 192.206.146.198
+wordpress.com -> 192.0.78.17
+mercedes-benz.com -> 23.212.249.197

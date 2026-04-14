@@ -1,0 +1,133 @@
+===== google.com =====
+Domain: google.com
+Registered On: 1997-09-15
+Expires On: 2028-09-14
+Updated On: 2019-09-09
+
+Status:
+- client delete prohibited
+- client transfer prohibited
+- client update prohibited
+- server delete prohibited
+- server transfer prohibited
+- server update prohibited
+
+Name Servers:
+- ns1.google.com
+- ns2.google.com
+- ns3.google.com
+- ns4.google.com
+
+Registrar:
+- MarkMonitor Inc. (IANA ID: 292)
+
+Registrant:
+- Google LLC (US)
+
+===== microsoft.com =====
+Domain: microsoft.com
+Registered On: 1991-05-02
+Expires On: 2026-05-03
+Updated On: 2025-04-01
+
+Status:
+- client delete prohibited
+- client transfer prohibited
+- client update prohibited
+- server delete prohibited
+- server transfer prohibited
+- server update prohibited
+
+Name Servers:
+- ns1-39.azure-dns.com
+- ns2-39.azure-dns.net
+- ns3-39.azure-dns.org
+- ns4-39.azure-dns.info
+
+Registrar:
+- MarkMonitor Inc. (IANA ID: 292)
+
+Registrant:
+- Microsoft Corporation (US)
+
+===== amazon.com =====
+Domain: amazon.com
+Registered On: 1994-11-01
+Expires On: 2026-10-31
+Updated On: 2025-07-31
+
+Status:
+- client delete prohibited
+- client transfer prohibited
+- client update prohibited
+- server delete prohibited
+- server transfer prohibited
+- server update prohibited
+
+Name Servers:
+- ns1.amzndns.com
+- ns1.amzndns.net
+- ns1.amzndns.org
+- ns1.amzndns.co.uk
+- ns2.amzndns.com
+- ns2.amzndns.net
+- ns2.amzndns.org
+- ns2.amzndns.co.uk
+
+Registrar:
+- MarkMonitor Inc. (IANA ID: 292)
+
+Registrant:
+- Amazon Technologies, Inc. (US)
+
+===== netflix.com =====
+Domain: netflix.com
+Registered On: 1997-11-11
+Expires On: 2027-11-10
+Updated On: 2025-10-09
+
+Status:
+- client delete prohibited
+- client transfer prohibited
+- client update prohibited
+- server delete prohibited
+- server transfer prohibited
+- server update prohibited
+
+Name Servers:
+- ns-1372.awsdns-43.org
+- ns-1984.awsdns-56.co.uk
+- ns-659.awsdns-18.net
+- ns-81.awsdns-10.com
+
+Registrar:
+- MarkMonitor Inc. (IANA ID: 292)
+
+Registrant:
+- Netflix, Inc. (US)
+
+===== disneyplus.com =====
+Domain: disneyplus.com
+Registered On: 2000-03-23
+Expires On: 2026-03-22
+Updated On: 2025-02-20
+
+Status:
+- client transfer prohibited
+
+Name Servers:
+- dns1.p09.nsone.net
+- dns2.p09.nsone.net
+- dns3.p09.nsone.net
+- dns4.p09.nsone.net
+- sdns110.ultradns.biz
+- sdns110.ultradns.com
+- sdns110.ultradns.net
+- sdns110.ultradns.org
+
+Registrar:
+- CSC Corporate Domains, Inc. (IANA ID: 299)
+
+Registrant:
+- Disney Enterprises, Inc. (US)
+

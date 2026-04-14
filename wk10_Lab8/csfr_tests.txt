@@ -1,0 +1,3 @@
+The secure form works correctly with session tokens.
+The attack from csfr.html fails due to missing token.
+CSRF protection using tokens is effective.

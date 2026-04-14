@@ -1,0 +1,4 @@
+The application reads and displays data from a file without sanitization.
+This allows malicious scripts to be executed automatically in the browser.
+The script can redirect users to another page or perform harmful actions.
+This demonstrates a stored XSS vulnerability.

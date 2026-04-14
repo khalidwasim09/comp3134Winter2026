@@ -1,0 +1,113 @@
+jyluc@Jinyoung MINGW64 ~
+$ ssh root@165.22.234.209
+The authenticity of host '165.22.234.209 (165.22.234.209)' can't be established.
+ED25519 key fingerprint is SHA256:dZOEcD8IeBpWfwIlE66hpZjQoJTvJ6IRQu+6fAGb2dE.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '165.22.234.209' (ED25519) to the list of known hosts.
+root@165.22.234.209's password:
+Welcome to Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-113-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Mon Jan 19 21:26:01 UTC 2026
+
+  System load:  0.0                Processes:             91
+  Usage of /:   10.0% of 24.05GB   Users logged in:       0
+  Memory usage: 23%                IPv4 address for eth0: 165.22.234.209
+  Swap usage:   0%                 IPv4 address for eth0: 10.20.0.5
+
+Expanded Security Maintenance for Applications is not enabled.
+
+74 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get update
+Hit:1 http://mirrors.digitalocean.com/ubuntu jammy InRelease
+Get:2 http://mirrors.digitalocean.com/ubuntu jammy-updates InRelease [128 kB]
+Hit:3 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease
+Get:4 http://mirrors.digitalocean.com/ubuntu jammy-backports InRelease [127 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:6 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2903 kB]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.1 kB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1009 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [22.5 kB]
+Fetched 4332 kB in 2s (1777 kB/s)
+Reading package lists... Done
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get install apache2-utils
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libapr1 libaprutil1
+The following NEW packages will be installed:
+  apache2-utils libapr1 libaprutil1
+0 upgraded, 3 newly installed, 0 to remove and 74 not upgraded.
+Need to get 290 kB of archives.
+After this operation, 995 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 libapr1 amd64 1.7.0-8ubuntu0.22.04.2 [108 kB]
+Get:2 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 libaprutil1 amd64 1.6.1-5ubuntu4.22.04.2 [92.8 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security/main amd64 apache2-utils amd64 2.4.52-1ubuntu4.18 [89.5 kB]
+Fetched 290 kB in 0s (692 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 94024 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.7.0-8ubuntu0.22.04.2_amd64.deb ...
+Unpacking libapr1:amd64 (1.7.0-8ubuntu0.22.04.2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.52-1ubuntu4.18_amd64.deb ...
+Unpacking apache2-utils (2.4.52-1ubuntu4.18) ...
+Setting up libapr1:amd64 (1.7.0-8ubuntu0.22.04.2) ...
+Setting up libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+Setting up apache2-utils (2.4.52-1ubuntu4.18) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.11) ...
+Scanning processes...
+Scanning candidates...
+Scanning linux images...
+
+Restarting services...
+ /etc/needrestart/restart.d/systemd-manager
+ systemctl restart cron.service multipathd.service packagekit.service polkit.service rsyslog.service serial-getty@ttyS0.service ssh.service systemd-journald.service systemd-networkd.service systemd-resolved.service systemd-timesyncd.service systemd-udevd.service
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+ systemctl restart user@0.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# ping -c 4 google.com
+PING google.com (142.250.69.142) 56(84) bytes of data.
+64 bytes from tzyula-ab-in-f14.1e100.net (142.250.69.142): icmp_seq=1 ttl=116 time=9.02 ms
+64 bytes from tzyula-ab-in-f14.1e100.net (142.250.69.142): icmp_seq=2 ttl=116 time=8.11 ms
+64 bytes from tzyula-ab-in-f14.1e100.net (142.250.69.142): icmp_seq=3 ttl=116 time=8.10 ms
+64 bytes from tzyula-ab-in-f14.1e100.net (142.250.69.142): icmp_seq=4 ttl=116 time=8.10 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 8.096/8.331/9.020/0.397 ms
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#
