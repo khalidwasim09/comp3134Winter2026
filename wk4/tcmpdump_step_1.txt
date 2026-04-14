@@ -1,0 +1,10 @@
+07:11:50.563514 IP UbuntuCOMP3134.39327 > 10.0.2.3.domain: 17827+ [1au] A? merino.services.mozilla.com. (56)
+07:11:50.563984 IP UbuntuCOMP3134.56574 > 10.0.2.3.domain: 13133+ [1au] AAAA? merino.services.mozilla.com. (56)
+07:11:50.582051 IP 10.0.2.3.domain > UbuntuCOMP3134.39327: 17827 2/0/1 CNAME mozilla.map.fastly.net., A 151.101.125.91 (108)
+07:11:50.582098 IP 10.0.2.3.domain > UbuntuCOMP3134.56574: 13133 2/0/1 CNAME mozilla.map.fastly.net., AAAA 2a04:4e42:1e::347 (120)
+07:11:50.582782 IP UbuntuCOMP3134.59288 > 151.101.125.91.https: Flags [S], seq 4273340287, win 64240, options [mss 1460,sackOK,TS val 2161267797 ecr 0,nop,wscale 9], length 0
+07:11:50.591610 IP 151.101.125.91.https > UbuntuCOMP3134.59288: Flags [S.], seq 972672001, ack 4273340288, win 65535, options [mss 1460], length 0
+07:11:50.591625 IP UbuntuCOMP3134.59288 > 151.101.125.91.https: Flags [.], ack 1, win 64240, length 0
+07:11:50.592167 IP UbuntuCOMP3134.59288 > 151.101.125.91.https: Flags [P.], seq 1:2360, ack 1, win 64240, length 2359
+07:11:50.592278 IP UbuntuCOMP3134.59288 > 151.101.125.91.https: Flags [P.], seq 2360:2366, ack 1, win 64240, length 6
+07:11:50.592519 IP 151.101.125.91.https > UbuntuCOMP3134.59288: Flags [.], ack 1461, win 65535, length 0

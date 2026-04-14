@@ -1,0 +1,3 @@
+The PHP form with session token prevents CSRF attacks because it verifies request authenticity.
+The HTML attack page fails because it does not have the correct session token.
+This ensures only valid requests from the user session are processed.

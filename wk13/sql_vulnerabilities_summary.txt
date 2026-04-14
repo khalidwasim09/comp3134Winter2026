@@ -1,0 +1,8 @@
+1) When searching for Ben, no results are returned because active = 0.
+This is expected.
+
+2) When using Ben'--, the query ignores the active condition.
+This allows retrieving the hidden Ben record.
+
+3) When using Ben' OR 1=1 --, all records are returned.
+This shows the application is vulnerable to SQL injection because input is directly inserted into the query.
